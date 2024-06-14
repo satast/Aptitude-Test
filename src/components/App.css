@@ -1,0 +1,32 @@
+
+/* src/App.css */
+.body {
+  background-color:bisque;
+}
+
+@keyframes blinking {
+  0% { opacity: 1; }
+  50% { opacity: 0; }
+  100% { opacity: 1; }
+  
+}
+
+
+@keyframes runningText {
+  from {
+    transform: translateX(50%);
+  }
+  to {
+    transform: translateX(0%);
+  }
+}
+
+
+/* CSS */
+.custom-radio .form-check-input:checked {
+  background-color: blue; /* Change the background color when the radio button is checked */
+}
+
+.custom-radio .form-check-input:checked::after {
+  background-color: blue; /* Change the dot color when the radio button is checked */
+}
